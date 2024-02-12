@@ -51,7 +51,7 @@
 //!
 //! > Want to implement your own? If it is a common strategy, please consider opening a PR to add it to the library.
 //!   Otherwise, we are open to turning this into an open trait so that you can implement your own strategy.
-
+#![allow(ambiguous_glob_reexports)]
 #![allow(clippy::map_clone, clippy::large_enum_variant)]
 #![warn(clippy::unwrap_used, clippy::missing_errors_doc, clippy::missing_panics_doc)]
 #![forbid(unsafe_code)]
